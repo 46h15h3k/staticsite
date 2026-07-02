@@ -170,6 +170,8 @@ If you don't have a domain, the site is already accessible directly via the EC2 
 
 ## Possible Improvements
 
+https://roadmap.sh/projects/static-site-server
+
 - Add HTTPS via **Let's Encrypt** and **Certbot**
 - Automate provisioning with **Terraform** or **CloudFormation**
 - Trigger deployment via a **CI/CD pipeline** (e.g. GitHub Actions) instead of manual script execution
