@@ -2,9 +2,9 @@
 
 LOCAL_DIR="$(pwd)/"
 REMOTE_USER="ec2-user"
-REMOTE_HOST="13.201.167.237"
+REMOTE_HOST="<your-instance-public-ip"
 REMOTE_DIR="/var/www/html"
-SSH_KEY="D:/Learning/keys/linux-server.pem"
+SSH_KEY="path/to/key/key.pem"
 
 # Function to run a command with error checking
 run_command() {
